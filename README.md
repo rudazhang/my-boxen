@@ -1,7 +1,7 @@
 # My Boxen
 
-This is my Boxen project for auto-configuring a development environment for 
-my future MacBook Pros. 
+This is my Boxen project for auto-configuring a development environment for
+my future MacBook Pros.
 
 
 
@@ -13,7 +13,7 @@ Modules included in the template `Puppetfile`:
 
 * Boxen Internal
   * Full Disk Encryption requirement
-  * repository 
+  * repository
   * stdlib
   * inifile
 * Utilities
@@ -51,19 +51,47 @@ Modules included in the template `Puppetfile`:
   * Homebrew
   * brewcask
 
-More existing modules can be found under the 
+More existing modules can be found under the
 [boxen organization](https://github.com/boxen) as `puppet-*`.
 
 * postgresql
+* macvim
+* atom
+* virtualbox
+* iterm2
+* googledrive
+* dropbox
+* slack
+* skype
+* chrome
+* flux
+* intellij
+* pycharm
+* webstorm
 
 ### What Else Do I Need to Install
 
-* anaconda
-  * [Command-line installers](https://www.continuum.io/downloads#_macosx)
+* [Anaconda3](https://www.continuum.io/downloads#_macosx)
+* [R](www.r-project.org)
+  * RStudio
+* [Julia](http://julialang.org/downloads/)
+* Jupyter kernels
+  * [IRkernel](http://irkernel.github.io/installation/)
+  * [IJulia](https://github.com/JuliaLang/IJulia.jl)
+  * [IScala](https://github.com/mattpap/IScala)
+* QGIS
+* JOSM
+* LaTeX (TeXShop, BibDesk, etc.)
 * Available on homebrew
+  * `brew list`
 * Available on homebrew-cask
   * java 8 jdk
 
+* Cloud Storage
+  * Box
+  * Copy
+* Wechat
+* Chromecast
 
 
 
@@ -90,14 +118,14 @@ More existing modules can be found under the
 
 ### Change Module Defaults
 
-`hiera/` is the preferred mechanism to make changes to module defaults, 
+`hiera/` is the preferred mechanism to make changes to module defaults,
 e.g. version and service port.
 
 ### Creat New Puppet Modules
 
-You can make new modules in the `modules/` directory for these softwares. 
-Then add `include $modulename` in `manifests/site.pp` to include 
-the new modules. 
+You can make new modules in the `modules/` directory for these softwares.
+Then add `include $modulename` in `manifests/site.pp` to include
+the new modules.
 
 See [The official Puppet documentation](http://docs.puppetlabs.com/) for:
 
@@ -106,7 +134,7 @@ See [The official Puppet documentation](http://docs.puppetlabs.com/) for:
  * [Defined Types](http://docs.puppetlabs.com/learning/definedtypes.html)
  * [Facts](http://docs.puppetlabs.com/guides/custom_facts.html)
 
-See `modules/people/README.md` for creating per-user modules. 
+See `modules/people/README.md` for creating per-user modules.
 See `modules/projects/README.md` for creating organization-wide modules.
 
 
