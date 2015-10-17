@@ -50,6 +50,7 @@ Modules included in the template `Puppetfile`:
 * Package Management
   * Homebrew
   * brewcask
+  * Anaconda
 
 More existing modules can be found under the
 [boxen organization](https://github.com/boxen) as `puppet-*`.
@@ -71,7 +72,8 @@ More existing modules can be found under the
 
 ### What Else Do I Need to Install
 
-* [Anaconda3](https://www.continuum.io/downloads#_macosx)
+* Python package & environment manager
+  * [Anaconda3](https://www.continuum.io/downloads#_macosx) (recommended)
 * [R](www.r-project.org)
   * RStudio
 * [Julia](http://julialang.org/downloads/)
@@ -86,6 +88,7 @@ More existing modules can be found under the
   * `brew list`
 * Available on homebrew-cask
   * java 8 jdk
+  * anaconda (It's recommended to directly install from Continuum Analytics)
 
 * Cloud Storage
   * Box
