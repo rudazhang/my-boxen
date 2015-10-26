@@ -80,21 +80,25 @@ More existing modules can be found under the
 * Jupyter kernels
   * [IRkernel](http://irkernel.github.io/installation/)
   * [IJulia](https://github.com/JuliaLang/IJulia.jl)
-  * [IScala](https://github.com/mattpap/IScala)
-* QGIS
-* JOSM
+  * [Spark Kernel](https://github.com/ibm-et/spark-kernel)
+* GIS
+  * QGIS
+  * JOSM
+  * GDAL
 * LaTeX (TeXShop, BibDesk, etc.)
 * Available on homebrew
   * `brew list`
 * Available on homebrew-cask
   * java 8 jdk
   * anaconda (It's recommended to directly install from Continuum Analytics)
-
 * Cloud Storage
   * Box
   * Copy
 * Wechat
 * Chromecast
+* Adobe
+  * Acrobat
+  * Illustrator
 
 
 
