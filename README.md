@@ -72,7 +72,7 @@ More existing modules can be found under the
 
 ### What Else Do I Need to Install
 
-* Python package & environment manager
+* Python package & environment (as `virtualenv`) manager
   * [Anaconda3](https://www.continuum.io/downloads#_macosx) (recommended)
 * [R](www.r-project.org)
   * RStudio
@@ -100,7 +100,14 @@ More existing modules can be found under the
   * Acrobat
   * Illustrator
 
+Update Snippets
 
+```sh
+conda info
+conda update conda anaconda
+conda install jupyter
+conda create -n snakeskin python=2.7
+```
 
 ## Getting Started
 
