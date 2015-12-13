@@ -86,8 +86,9 @@ More existing modules can be found under the
   * JOSM
   * GDAL
 * LaTeX (TeXShop, BibDesk, etc.)
-* Available on homebrew
-  * `brew list`
+* Available in package managers
+  * homebrew `brew list`
+  * npm
 * Available on homebrew-cask
   * java 8 jdk
   * anaconda (It's recommended to directly install from Continuum Analytics)
