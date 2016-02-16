@@ -18,7 +18,6 @@ Modules included in the template `Puppetfile`:
   * inifile
 * Utilities
   * sudo
-  * ack
   * dnsmasq (with .dev resolver for localhost)
   * GNU softwares
     * Findutils
