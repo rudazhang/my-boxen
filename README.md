@@ -22,6 +22,7 @@ Modules included in the template `Puppetfile`:
   * GNU softwares
     * Findutils
     * GNU tar
+  * pkgconfig
 * openssl
 * xquartz
 * foreman
@@ -29,7 +30,6 @@ Modules included in the template `Puppetfile`:
   * Git
   * Hub
   * gitx
-* pkgconfig
 * gcc
 * go
 * Ruby
